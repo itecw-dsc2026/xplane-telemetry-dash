@@ -48,8 +48,8 @@ def parse_xplane_csv(file_bytes, filename):
     return df
 
 # --- UI Header ---
-st.title("✈️ WSSS to WMKK: Telemetry & Eco-Optimization Dashboard")
-st.markdown("Upload **Data1.csv** through **Data4.csv** to instantly generate comparative analytics and flight deck evaluations.")
+st.title("✈️ WSSS (Singapore Changi International Airport) to WMKK (Kuala Lumpur Internal Airport): Telemetry & Eco-Optimization Dashboard")
+st.markdown("Upload data comma separated value files from X Plane Flight Simulator to instantly generate comparative analytics and flight deck evaluations.")
 
 # --- File Uploader ---
 uploaded_files = st.file_uploader("Drop X-Plane 12 CSV files here", accept_multiple_files=True, type=['csv'])
