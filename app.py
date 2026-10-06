@@ -48,7 +48,7 @@ def parse_xplane_csv(file_bytes, filename):
     return df
 
 # --- UI Header ---
-st.title("✈️ WSSS (Singapore Changi International Airport) to WMKK (Kuala Lumpur Internal Airport): Telemetry & Eco-Optimization Dashboard")
+st.title("✈️ WSSS (Singapore Changi International Airport) to WMKK (Kuala Lumpur International Airport): Telemetry & Eco-Optimization Dashboard")
 st.markdown("Upload data comma separated value files from X Plane Flight Simulator to instantly generate comparative analytics and flight deck evaluations.")
 
 # --- File Uploader ---
