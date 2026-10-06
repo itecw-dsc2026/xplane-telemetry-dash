@@ -118,7 +118,7 @@ if uploaded_files:
 
     # --- 3. Optimal Flight Settings ---
     st.markdown("---")
-    st.subheader("🎯 Master Targets for Flight 5")
+    st.subheader("🎯 Master Targets for future flights")
     st.markdown("Program your FMC and autopilot with these exact parameters to hit the **4,557 lbs** fuel-burn target.")
     
     optimal_data = {
